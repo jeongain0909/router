@@ -12,5 +12,3 @@ app.use("/test", testRouter);
 app.listen(app.get("port"), ()=>{
     console.log(`Sever On Port ${app.get("port")}`);
 });
-
-
